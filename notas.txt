@@ -1,0 +1,37 @@
+<h1 className="featured--name">{item.original_name}</h1>
+                    <div className="featured--info">
+                        <span className="featured--points">{item.vote_average} Pontos</span>
+                        <span className="featured--year">{firstData.getFullYear}</span>
+                        <span className="featured--seasons">8 Temporadas</span>
+                    </div>
+                    <p className="featured--description">{item.overview}</p>
+                    <div className="featured--buttons">
+                        <button>Assistir</button>
+                        <button>+ Minha Lista</button>
+                    </div>
+
+
+ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    background: #000000;
+    color: #ffffff;
+
+
+        const [ email, setEmail ] = useState('')
+    const [ passwodr, setPasswodr ] = useState('')
+
+    const redrectToHome = useCallback((e)=> {
+        e.preventDefault()
+        const valueEmail = setEmail(e.target.value)
+        const valuePass = setPasswodr(e.target.value)
+
+        if(valueEmail === 'luiz@gmail.com' & valuePass === '123456'){
+            <Redirect to="/home"/>
+        }else {
+            <Redirect to="/"/>
+        }
+
+    }, [])

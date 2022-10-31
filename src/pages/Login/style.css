@@ -1,0 +1,177 @@
+a {
+    color: #0080FF;
+    text-decoration: none;
+}
+
+/*  SESSÕES AO REDOR DE TUDO */
+.body {
+    width: 100%;
+    height: 170vh;
+    background-image: url('../../assets/background_01.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*  MENU */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 5em;
+}
+
+.menu .logo {
+    margin-left: 50px;
+    max-width: 200px;
+    z-index: 2;
+}
+
+form {
+    width: 450px;
+    height: 600px;
+    background: #000000;
+    background-color: rgba(0,0,0,.7);
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .content-fotm {
+    width: 325px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+form .content-fotm h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+form .content-fotm input {
+    width: 100%;
+    height: 3em;
+    background: #333333;
+    color: #8C8986;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+form .content-fotm button {
+    width: 100%;
+    height: 3em;
+    background: #E50914;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+}
+form .content-fotm button:hover {
+    opacity: 0.7;
+}
+
+form .content-checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    height: 50px;
+    margin: 0 auto;
+    color: #8C8986;
+}
+
+form .content-checkbox div #checkbox {
+    color: #8C8986;
+    border: none;
+    width: 15px;
+}
+
+form .form-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    height: 150px;
+    margin: 0 auto;
+    color: #8C8986;
+}
+
+form .form-footer .box01 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    margin-top: 40px;
+}
+
+form .form-footer .box01 img {
+    max-width: 20px;
+}
+form .form-footer .box01 span {
+    margin-left: 15px;
+}
+
+form .form-footer .box02 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+form .form-footer .box02 a {
+    margin-left: 15px;
+}
+
+.footerLogin {
+    width: 100%;
+    height: 14em;
+    background: #000000;
+    background-color: rgba(0,0,0,.7);
+}
+
+.footerLogin section {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    color: #8C8986;
+}
+
+.footerLogin section .text01 {
+    margin-top: 25px;
+}
+
+.footerLogin section .text02 {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: 35px;
+}
+
+.footerLogin section .text02 span {
+    font-size: 13px;
+}
+
+.footerLogin section button {
+    width: 150px;
+    height: 50px;
+    background: #000000;
+    color: #8C8986;
+    border: 1px solid #8C8986;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 30px;
+}
